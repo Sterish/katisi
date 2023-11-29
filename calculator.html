@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>onlinecalculator</title>
+</head>
+<body>
+    <form action="calculator.html" class="calcDesign" method="post" name="calcform">
+        <input type="text" name="answer" id="display">
+        <br></br>
+        <input type="button" class="buttDesign" value="7" onclick="calcform.answer.value+='7'">
+        <input type="button" class="buttDesign" value="8" onclick="calcform.answer.value+='8'">
+        <input type="button" class="buttDesign" value="9" onclick="calcform.answer.value+='9'">
+        <input type="button" class="operatorDesign" value="/" onclick="calcform.answer.value+='/'">
+        <br></br>
+        <input type="button" class="buttDesign" value="4" onclick="calcform.answer.value+='4'">
+        <input type="button" class="buttDesign" value="5" onclick="calcform.answer.value+='5'">
+        <input type="button" class="buttDesign" value="6" onclick="calcform.answer.value+='6'">
+        <input type="button" class="operatorDesign" value="*" onclick="calcform.answer.value+='*'">
+        <br></br>
+        <input type="button" class="buttDesign" value="1" onclick="calcform.answer.value+='1'">
+        <input type="button" class="buttDesign" value="2" onclick="calcform.answer.value+='2'">
+        <input type="button" class="buttDesign" value="3" onclick="calcform.answer.value+='3'">
+        <input type="button" class="operatorDesign" value="-" onclick="calcform.answer.value+='-'">
+        <br></br>
+        <input type="button" class="buttDesign" value="." onclick="calcform.answer.value+='.'">
+        <input type="button" class="buttDesign" value="0" onclick="calcform.answer.value+='0'">
+        <input type="button" class="operatorDesign" value="+" onclick="calcform.answer.value+='+'">
+        <input type="button" class="buttDesign" value="C" onclick="calcform.answer.value=' '" style="background-color: red;">
+        <br></br>
+        <input type="button" id="equalbuttDesign" value="=" onclick="calcform.answer.value=eval(calcform.answer.value)">
+    </form>
+</body>
+</html>

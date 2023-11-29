@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.calcDesign{
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.8s;
+    background-color: black;
+    text-align: center;
+
+}
+
+#display {
+    border: none;
+    background: white;
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+}
+
+.buttDesign{
+    width: 75px;
+    height: 75px;
+    padding-top: -1px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1.5px;
+}
+
+.operatorDesign{
+    width: 75px;
+    height: 75px;
+    padding-top: -1px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1.5px;
+}
+.operatorDesign:hover{
+    background: wheat;
+}
+
+#equalbuttDesign{
+    width: 320px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: red;
+}
